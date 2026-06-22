@@ -114,6 +114,8 @@ Diagnostic Statistics:
 
 MODEL COMPARISON (sorted by RMSE, lower = better)
 
+Best model: XGBoost
+
 | Model          |   RMSE ↓ |    MAE ↓ | MAPE (%) ↓ |    R² ↑ |
 | -------------- | -------: | -------: | ---------: | ------: |
 | XGBoost        |  226.254 |  168.932 |      2.815 |   0.950 |
