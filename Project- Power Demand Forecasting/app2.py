@@ -19,6 +19,8 @@ Two modes (selectable in sidebar):
 
 # In[24]:
 
+import plotly.express as px
+import plotly.graph_objects as go
 
 import subprocess
 import sys
