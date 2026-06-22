@@ -1,14 +1,29 @@
 # Power Demand Forecasting
 
+
 ## Project Overview
 Forecast hourly power demand using machine learning models.
+1. Power Demand Forecasting (Highly Recommended)
+
+Since you've recently worked on time-series forecasting, create a project with:
+
+Data cleaning and feature engineering
+
 
 ## Features
 - Data preprocessing
 - Feature engineering
 - Model training
-- Forecast visualization
+- Forecast visualization:
+  XGBoost
+  LightGBM
+  Random Forest
+  ARIMA
+  SARIMA
+
+- Model comparison
 - Streamlit deployment
+- Future demand prediction
 
 ## Technologies
 streamlit
