@@ -114,11 +114,16 @@ Prob(H) (two-sided):                  0.58   Kurtosis:                         3
 MODEL COMPARISON (sorted by RMSE, lower = better)
 
 ==================================================
+
                     RMSE       MAE  MAPE (%)      R2
 XGBoost          226.254   168.932     2.815   0.950
+
 LightGBM         226.854   172.923     2.894   0.950
+
 Random Forest    298.143   231.334     3.935   0.914
+
 Baseline Model   876.312   657.639    11.165   0.256
+
 SARIMA          4318.087  3705.504       NaN -17.064
 
 Best model: XGBoost
@@ -126,4 +131,5 @@ Best model: XGBoost
 ## Run Locally
 
 pip install -r requirements.txt
+
 streamlit run app2.py
